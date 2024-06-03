@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../JAVASRIPT/Aboutt.js">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">My Gallery</a>
+    </nav>
+  </header>
+
+  <section id="gallery" class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card shadow">
+        <div class="gallery-item">
+          <img src="../../MY PROJECT IMG/zebra.pix.jpeg" alt="Image 1" class="img-fluid" onmouseover="openModal('../../MY PROJECT IMG/zebra.pix.jpeg')" <h1>Zebra</h1>
+        </div>
+    </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="gallery-item">
+          <img src="../../MY PROJECT IMG/turtle.jpeg" alt="Image 2" class="img-fluid" onmouseover="openModal('../../MY PROJECT IMG/turtle.jpeg')">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="gallery-item">
+          <img src="../../MY PROJECT IMG/tigerss.jpg" alt="Image 3" class="img-fluid" onmouseover="openModal('../../MY PROJECT IMG/tigerss.jpg')">
+        </div>
+      </div>
+      <!-- Add more images here -->
+    </div>
+  </section>
+
+  <div id="myModal" class="modal">
+    <span class="close" onmouseover="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <script src="../JAVASRIPT/Aboutt.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* navbar */
+button{
+    margin-left: 35px;
+    background-color: magenta;
+    padding: 8px;
+    border-radius: 30px;
+    color:black;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+.com{
+color: magenta;
+font-weight: bold;
+font-family: "Oleo Script", system-ui;
+}
+
+/* navbar */
+
+
+
+/* carousel */
+.carousel-caption{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    height: 250px;
+    border-top: 10px solid magenta !important;
+    border-bottom: 5px solid magenta !important;
+}
+/* carousel */
+
+
+
+/* card */
+.head{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.col-md-6{
+    background-color: magenta;
+}
+h3{
+    color: white;
+}
+h6{
+    color: white;
+}
+
+/* card */
+
+
+/* footer */
+.fa-brands{
+    margin-right: 30px;
+    
+}
+.fa-brands a:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    color: navy;
+}
+/* footer */

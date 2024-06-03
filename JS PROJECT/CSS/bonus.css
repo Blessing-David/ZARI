@@ -1,0 +1,60 @@
+/* navbar */
+button{
+    margin-left: 35px;
+    background-color: magenta;
+    padding: 8px;
+    border-radius: 30px;
+    color:black;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+.com{
+color: magenta;
+font-weight: bold;
+font-family: "Oleo Script", system-ui;
+}
+
+/* navbar */
+
+
+/* footer */
+.fa-brands{
+    margin-right: 30px;
+    
+}
+.fa-brands a:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    color: navy;
+}
+/* footer */
+
+/* bonus.css */
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-text {
+    animation: fadeInUp 5s ease-in-out;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body img {
+    border-radius: 10px;
+}
+

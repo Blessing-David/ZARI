@@ -1,0 +1,57 @@
+/* navbar */
+button {
+    margin-left: 35px;
+    background-color: magenta;
+    padding: 8px;
+    border-radius: 30px;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+.com {
+    color: magenta;
+    font-weight: bold;
+    font-family: "Oleo Script", system-ui;
+}
+/* navbar */
+
+
+
+
+
+/* card */
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+h4{
+    text-align: center;
+}
+
+/* ceo */
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/* footer */
+.fa-brands{
+    margin-right: 30px;
+    
+}
+.fa-brands a:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    color: navy;
+}
+/* footer */
+

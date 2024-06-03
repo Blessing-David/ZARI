@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oleo+Script:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/bonus.css">
+</head>
+
+<body>
+
+    <!-- <---Navbar -->
+    <div class="container-fluid shadow">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <a class="navbar-brand fw-bold fs-1" href="#"><span class="com">ZARI</span>
+                        <span class="text-dark">WILDLIFE</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-dark px-4">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fs-6" href="../HTML/home.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fs-6" href="../HTML/about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fs-6" href="../HTML/Contact.html">CONTACT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fs-6" href="../HTML/gallery.html">GALLERY</a>
+                            <li>
+                                <button type="submit" onclick="location.href='Signup.html'">SIGN UP</button>
+                            </li>
+                            <li>
+                                <button type="submit" onclick="location.href='Login.html'">LOG IN</button>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            </nav>
+        </div>
+    </div>
+    </div> <br>
+    </nav>
+    <!--End Navbar-->
+
+
+
+
+    <h1 class="name animated-text" style="text-align: center; margin-top: 20px; "></h1>
+    <h3 class="email animated-text"  style="text-align: center;"></h3>
+    <h3 class="animated-text" style="text-align: center;">Your id is: <span class="com">ZARI</span>275f30 </h3><br><br>
+
+
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="card shadow mb-5">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-3">
+                            <button type="submit" class="btn btn-secondary filter-button" data-filter="all">All</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="submit" class="btn btn-success filter-button"
+                                data-filter="animals">Animals</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="submit" class="btn btn-primary filter-button"
+                                data-filter="reptiles">Reptiles</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="submit" class="btn btn-warning filter-button" data-filter="bird">Bird</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-6" style="margin-top: -20px;">
+                <input type="text" name="" id="search" placeholder="search animals" class="form-control mb-3 style">
+            </div>
+
+            <!--For the Animals-->
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/.antheter.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Antheter</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="reptiles">
+                            <img src="../../MY PROJECT IMG/adder rep.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Adder</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="bird">
+                            <img src="../../MY PROJECT IMG/canary.b.webp" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Canary</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/aardvark.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Aardvark</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="reptiles">
+                            <img src="../../MY PROJECT IMG/angonoka tortise rep.jpg" alt=""
+                                style="height: 300px; width: 500px;" class="img-fluid">
+                            <h5>Angonoka Tortise</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="bird">
+                            <img src="../../MY PROJECT IMG/crow b.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Crow</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/armadillo.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Armadillo</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="reptiles">
+                            <img src="../../MY PROJECT IMG/axolotl rep.webp" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Axolotl</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/babirusa.webp" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Babirusa</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/badgers.jpeg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Badgers</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/bison.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Bison</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="bird">
+                            <img src="../../MY PROJECT IMG/black cockatoos.jpg" alt=""
+                                style="height: 300px; width: 500px;" class="img-fluid">
+                            <h5> BirdCockatoos</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/capuchin monkey.jpg" alt=""
+                                style="height: 300px; width: 500px;" class="img-fluid">
+                            <h5>Capuchin Monkey</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/cotton top tamarin.webp" alt=""
+                                style="height: 300px; width: 500px;" class="img-fluid">
+                            <h5>Cotton top Tamarin</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="bird">
+                            <img src="../../MY PROJECT IMG/cuckoo b.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Cuckoo</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/elk.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Elk</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="reptiles">
+                            <img src="../../MY PROJECT IMG/gavial rep.webp" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Gavial</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="bird">
+                            <img src="../../MY PROJECT IMG/finches .b.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Finches</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="reptiles">
+                            <img src="../../MY PROJECT IMG/iguana.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Iguana</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="bird">
+                            <img src="../../MY PROJECT IMG/kingfisher b.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Kingfisher</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/lemurs.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Lemurs</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/lynx.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Lynx</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/markhor.jpeg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Markhor</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/orangutan-7760085_640.jpg" alt=""
+                                style="height: 300px; width: 500px;" class="img-fluid">
+                            <h5>Orangutan</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/oryx.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Oryx</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/otters.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Otters</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/pangolin.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Pangolin</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/possums.png" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Possums</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="reptiles">
+                            <img src="../../MY PROJECT IMG/skink rep.webp" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Skink</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="reptiles">
+                            <img src="../../MY PROJECT IMG/tuataras.rep.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Tuataras</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="reptiles">
+                            <img src="../../MY PROJECT IMG/varan rep.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Varan</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/warthog-.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Warthog</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/wombat.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Wombat</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card shadow ">
+                <div class="card-body">
+                    <div class="row d-flex">
+                        <div class="col-md-4 filterable-item" data-filter="bird">
+                            <img src="../../MY PROJECT IMG/woodpecker.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Woodpecker</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="reptiles">
+                            <img src="../../MY PROJECT IMG/worm liz rep.jpg" alt="" style="height: 300px; width: 500px;"
+                                class="img-fluid">
+                            <h5>Worm Lizard</h5>
+                        </div>
+                        <div class="col-md-4 filterable-item" data-filter="animals">
+                            <img src="../../MY PROJECT IMG/snake-3135638_640.jpg" alt=""
+                                style="height: 300px; width: 500px;" class="img-fluid">
+                            <h5>White Snake</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    
+
+    
+
+
+    <button class="btn btn-danger mt-5"
+        style="margin-left: 50px; background-color: magenta; color: white; margin-bottom: 20px;">LOGOUT</button>
+
+
+
+        <!-- Modal -->
+<div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="welcomeModalLabel">Welcome to <span class="com">ZARI</span> Wildlife</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                We are delighted to have you here! Explore our site to learn more about wildlife conservation and our services.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+         <!-- footer -->
+    <div class="container-fluid bg-dark mt-5"><br>
+    <div class="container " style="padding: 20px;">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 bg-dark">
+          <h3 class="text-white" style=" font-weight: bold; font-family: Roboto" , sans-serif; ">ZARI</h3>
+          <p class=" text-white" style="line-height: 0.1;">A108 Will Street</p>
+            <p class="text-white" style="line-height: 0.1;">New York, NY 535022</p>
+            <p class="text-white" style="line-height: 0.1;">United States</p>
+            <br>
+            <p class="text-white" style="line-height: 0.1;">Phone: +1 5589 55488 55</p>
+            <p class="text-white" style="line-height: 0.1;">Email: zariwildlife12@gmail.com</p>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12 bg-dark">
+          <h5 class="text-white" style="font-weight: bold;">Details</h5>
+          <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>Home</p>
+          <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>About</p>
+          <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>Contact</p>
+          <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>Gallery</p>
+          <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>Sign up</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 bg-dark">
+          <h5 class="text-white" style="font-weight: bold;">Our Services</h5>
+          <p class="text-white"><span style="color: magenta; font-weight: 900;">></span>Wildlife Conservation</p>
+          <p class="text-white"><span style="color:magenta;font-weight: 900;">></span>Environmental Education</p>
+          <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>Retrieving lost Animals</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 bg-dark">
+          <h5 class="text-white" style="font-weight: bold;">Our Social Platforms</h5>
+          <a href="https://twitter.com" class="hov"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="https://facebook.com" class="hov"><i class="fa-brands fa-facebook-square"></i></a>
+          <a href="https://instagram.com" class="hov"><i class="fa-brands fa-instagram-square"></i></a>
+          <a href="https://skype.com" class="hov"><i class="fa-brands fa-skype"></i></a>
+          <a href="https://linkedin.com" class="hov"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="background-color: black;">
+    <div class="container">
+      <div class="row">
+        <div class="col-9 p-2">
+          <p class="mt-3 text-white" style="font-family: sans-serif; font-size: 14px;">© Copyright <strong><span
+                class="com">ZARI</span> Wildlife
+            </strong>All Rights Reserved</p>
+          <p style="line-height: 0.1; color: white; font-family: sans-serif; font-size: 14px;">Designed by <span
+              class="bb">David's Pride</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- footer -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- for the welcome add -->
+        <script>
+            let ble = localStorage.getItem('username')
+            let bleEmail = localStorage.getItem('email')
+            let myName = document.querySelector('.name')
+            let myEmail = document.querySelector('.email')
+            myName.innerHTML = `Welcome ${ble}`
+            myEmail.innerHTML = `Your email is ${bleEmail}`
+        </script>
+    <!-- for the welcome add -->
+
+
+
+
+    <!-- for the filter -->
+    <script>
+        // Select the sections
+        let myFilterBtn = document.querySelectorAll('.filter-button');
+        let myFilterableItems = document.querySelectorAll('.filterable-item')
+
+        // Loop through the buttons
+        myFilterBtn.forEach((button) => {
+            // Add an event listener to the button section
+            button.addEventListener('click', () => {
+                // Loop through the items
+                let filterValue = button.dataset.filter
+
+                myFilterableItems.forEach((item) => {
+                    // Check conditions
+                    if (item.dataset.filter === filterValue || filterValue === 'all') {
+                        item.style.display = 'block'
+                    }
+                    else {
+                        item.style.display = 'none'
+                    }
+                })
+            })
+        })
+    </script>
+
+    <script>
+        let mySearch = document.getElementById('search')
+        let myFilterableItems2 = document.querySelectorAll('.filterable-item')
+
+        // Add an event listener to the button search
+        mySearch.addEventListener('keyup', (e) => {
+            let searchTerm = e.target.value.toLowerCase();
+            //console.log(searchTerm);
+            myFilterableItems2.forEach((item) => {
+                let itemName = item.querySelector('h5').textContent.toLowerCase();
+
+                if (itemName.includes(searchTerm)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            })
+        })
+    </script>
+
+    <!-- for the filter -->
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let welcomeModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
+            welcomeModal.show();
+        });
+    </script>
+    
+
+
+
+
+
+   
+
+</body>
+
+</html>

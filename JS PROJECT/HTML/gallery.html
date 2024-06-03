@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oleo+Script:wght@400;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/gallery.css">
+</head>
+
+<style>
+    @keyframes bounce {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-20px);
+        }
+    }
+
+    .card {
+        animation: bounce 5s infinite;
+    }
+
+</style>
+
+<body>
+
+    <!-- <---Navbar -->
+    <div class="container-fluid shadow">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <a class="navbar-brand fw-bold fs-1" href="#"><span class="com">ZARI</span>
+                        <span class="text-dark">WILDLIFE</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-dark px-4">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fs-6" href="../HTML/home.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fs-6" href="../HTML/about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark fs-6" href="../HTML/Contact.html">CONTACT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fs-6" style="color: magenta; font-weight: bold;"
+                                    aria-current="page" href="../HTML/gallery.html">GALLERY</a>
+                            <li>
+                                <button type="submit" onclick="location.href='Signup.html'">SIGN UP</button>
+                            </li>
+                            <li>
+                                <button type="submit" onclick="location.href='Login.html'">LOG IN</button>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            </nav>
+        </div>
+    </div>
+    </div> <br>
+    </nav>
+    <!--End Navbar-->
+
+
+    <!-- card -->
+    <div style="background-color: magenta;;"><br><br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/aligator.webp" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Aligator</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/Ape.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Ape</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/baboon.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Baboon</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/Buffalo.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Buffalo</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/chameleaon.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Chameleon</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/chimpanzee.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Chimpanzee</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/coyote.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Coyote</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/crocodile.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Crocodile</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/eagle.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Eagle</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/elephant.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Elephant</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/emu.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Emu</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/flamingoos.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Flamingo</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/fox.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Fox</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/giraffe.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Giraffe</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/hedgehog-.pix.jpeg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Hedgehog</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/hippopotamus-95472_640.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Hippopotamus</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/Hyena.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Hyena</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/ibis.jpeg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Ibis</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/jackal-4565759_640.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Jackal</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/Jaguar.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Jaguar</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/lion-794962_640.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Lion</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/meerkat-.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Meerkat</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/mongoose.jpeg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Mongoose</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/okapi.jpeg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Okapi</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/ostrich.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Ostrich</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/owl.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Owl</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/panther.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Panther</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/puma.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Puma</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/rhinoceros.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Rhinoceros</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/Saola.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Saola</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/seal.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Seal</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/snake.webp" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Snake</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/tigers-.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Tiger</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/yak.jpeg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Yak</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/wolf.jpg" class="card-img-top img-fluid" alt="" />
+                        <div class="card-body">
+                            <h3 class="card-title">Wolf</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="../../MY PROJECT IMG/Zebra.jpg" class="card-img-top img-fluid" alt=""
+                            style="height: 170px;" />
+                        <div class="card-body">
+                            <h3 class="card-title">Zebra</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br>
+    </div>
+
+    <!-- card -->
+
+
+    <!-- footer -->
+    <div class="container-fluid bg-dark mt-5"><br>
+        <div class="container " style="padding: 20px;">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 bg-dark">
+                    <h3 class="text-white" style=" font-weight: bold; font-family: Roboto" , sans-serif; ">ZARI</h3>
+          <p class=" text-white" style="line-height: 0.1;">A108 Will Street</p>
+                        <p class="text-white" style="line-height: 0.1;">New York, NY 535022</p>
+                        <p class="text-white" style="line-height: 0.1;">United States</p>
+                        <br>
+                        <p class="text-white" style="line-height: 0.1;">Phone: +1 5589 55488 55</p>
+                        <p class="text-white" style="line-height: 0.1;">Email: zariwildlife12@gmail.com</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 bg-dark">
+                    <h5 class="text-white" style="font-weight: bold;">Details</h5>
+                    <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>Home</p>
+                    <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>About</p>
+                    <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>Contact</p>
+                    <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>Gallery</p>
+                    <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>Sign up</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 bg-dark">
+                    <h5 class="text-white" style="font-weight: bold;">Our Services</h5>
+                    <p class="text-white"><span style="color: magenta; font-weight: 900;">></span>Wildlife Conservation
+                    </p>
+                    <p class="text-white"><span style="color:magenta;font-weight: 900;">></span>Environmental Education
+                    </p>
+                    <p class="text-white"><span style="color: magenta;font-weight: 900;">></span>Retrieving lost Animals
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 bg-dark">
+                    <h5 class="text-white" style="font-weight: bold;">Our Social Platforms</h5>
+                    <a href="https://twitter.com" class="hov"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://facebook.com" class="hov"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://instagram.com" class="hov"><i class="fa-brands fa-instagram-square"></i></a>
+                    <a href="https://skype.com" class="hov"><i class="fa-brands fa-skype"></i></a>
+                    <a href="https://linkedin.com" class="hov"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-9 p-2">
+                    <p class="mt-3 text-white" style="font-family: sans-serif; font-size: 14px;">© Copyright
+                        <strong><span class="com">ZARI</span> Wildlife
+                        </strong>All Rights Reserved</p>
+                    <p style="line-height: 0.1; color: white; font-family: sans-serif; font-size: 14px;">Designed by
+                        <span class="bb">David's Pride</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+</html>

@@ -1,0 +1,27 @@
+/* navbar */
+button{
+    margin-left: 35px;
+    background-color: magenta;
+    padding: 8px;
+    border-radius: 30px;
+    color:black;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+.com{
+color: magenta;
+font-weight: bold;
+font-family: "Oleo Script", system-ui;
+}
+
+/* navbar */
+
+.bg{
+    background-image: url(../../MY\ PROJECT\ IMG/tigerss.jpg);
+    background-size: cover;
+    height: 550px;
+  }
+  input{
+    font-weight: bold;
+  }

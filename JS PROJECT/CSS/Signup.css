@@ -1,0 +1,34 @@
+/* navbar */
+button{
+    margin-left: 35px;
+    background-color: magenta;
+    padding: 8px;
+    border-radius: 30px;
+    color:black;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+.com{
+color: magenta;
+font-weight: bold;
+font-family: "Oleo Script", system-ui;
+}
+
+/* navbar */
+
+  
+  #message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .bg{
+    background-image: url(../../MY\ PROJECT\ IMG/cute.jpeg);
+    background-size: cover;
+    height: 710px;
+  }
+  label{
+    font-weight: bold;
+  }
